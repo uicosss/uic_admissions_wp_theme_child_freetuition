@@ -83,7 +83,8 @@
 ## Site domain name
 There might be situations where you need to use production data in non-prod environments. Before you can do that run the following steps:
 1. Make sure that the keys in web/wp-config.php `WP_HOME` and `WP_SITEURL` is updated to the domain used in your environment.
-2. Update the database using WP-CLI to reference the non-prod domain name `wp search-replace 'freetuition.uic.edu' 'non-prod-environment.uic.edu'`
+2. Update the database using WP-CLI to reference the non-prod domain name `wp search-replace 'admissions_child_freetuition
+   .uic.edu' 'non-prod-environment.uic.edu'`
 
 ## Site accounts
 If you are working from a brand new database, you'll have to create user accounts to use in the UI. You can use the following command to create an administrtor type role.
